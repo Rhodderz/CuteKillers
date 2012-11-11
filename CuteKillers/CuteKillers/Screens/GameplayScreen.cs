@@ -24,6 +24,7 @@ using Griddy2D;
 using System.IO;
 using GameStateManagement;
 using System.Threading;
+using EasyConfig;
 #endregion
 
 namespace CuteKillers
@@ -253,18 +254,35 @@ namespace CuteKillers
 
             Vector2 tempPlacement2;
             tempPlacement2.X = 100;
-            tempPlacement2.Y = 10;
+            tempPlacement2.Y = 40;
 
             DirectoryInfo dir = new DirectoryInfo(content.RootDirectory + "\\Characters");
-            FileInfo[] filePaths = dir.GetFiles("*.ckc");
+            FileInfo[] filePaths = dir.GetFiles("*.ini");
             spriteBatch.Begin();
 
             foreach (FileInfo file in filePaths)
             {
-                string key = System.IO.Path.GetFileNameWithoutExtension(file.Name);
+                string key = System.IO.Path.GetFileNameWithoutExtension(file.Name) + ".ini";
+                string key2 = System.IO.Path.GetFileName(file.Name);
 
-                spriteBatch.DrawString(gameFont, key, tempPlacement, Color.Black);
-                tempPlacement.Y = tempPlacement.Y + 40;
+                ConfigFile configFile = new ConfigFile("Content\\Characters\\" + System.IO.Path.GetFileName(file.Name));
+
+                foreach (KeyValuePair<string, SettingsGroup> group in configFile.SettingGroups)
+                {
+                    spriteBatch.DrawString(gameFont, group.Key + ":", tempPlacement, Color.Black);
+
+                    foreach (KeyValuePair<string, Setting> value in group.Value.Settings)
+                    {
+                        spriteBatch.DrawString(gameFont, value.Key + " = " + value.Value.RawValue, tempPlacement2, Color.Black);
+                        tempPlacement2.Y = tempPlacement2.Y + 40;
+                    }
+
+                    tempPlacement.Y = tempPlacement.Y + 40;
+                }
+
+                tempPlacement.Y = tempPlacement.Y + 60;
+                tempPlacement2.Y = tempPlacement2.Y + 60;
+                //spriteBatch.DrawString(gameFont, key, tempPlacement, Color.Black);
             }
 
             //DrawGameObjects(spriteBatch);

@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>background.png</Source>
+      <Name>background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\CuteKillers\bin\x86\Debug\Content\background.xnb</Output>
+      <Time>2012-10-08T17:28:39.7192104+01:00</Time>
+    </Item>
+    <Item>
+      <Source>blank.png</Source>
+      <Name>blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\CuteKillers\bin\x86\Debug\Content\blank.xnb</Output>
+      <Time>2012-10-08T17:28:39.7192104+01:00</Time>
+    </Item>
+    <Item>
+      <Source>gradient.png</Source>
+      <Name>gradient</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\CuteKillers\bin\x86\Debug\Content\gradient.xnb</Output>
+      <Time>2012-10-08T17:28:39.7192104+01:00</Time>
+    </Item>
+    <Item>
+      <Source>pixel.png</Source>
+      <Name>pixel</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\CuteKillers\bin\x86\Debug\Content\pixel.xnb</Output>
+      <Time>2012-10-10T15:49:18.7147765+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Maps\resourcesTileSet.png</Source>
+      <Name>Maps\resourcesTileSet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\CuteKillers\bin\x86\Debug\Content\Maps\resourcesTileSet.xnb</Output>
+      <Time>2012-10-10T15:49:54.3848167+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Maps\terrainTileSet.png</Source>
+      <Name>Maps\terrainTileSet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\CuteKillers\bin\x86\Debug\Content\Maps\terrainTileSet.xnb</Output>
+      <Time>2012-10-10T15:49:54.3858168+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Tiles\GriddyDefault\blankTile.png</Source>
+      <Name>Tiles\GriddyDefault\blankTile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\CuteKillers\bin\x86\Debug\Content\Tiles\GriddyDefault\blankTile.xnb</Output>
+      <Time>2012-10-10T15:50:57.3714194+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Tiles\GriddyDefault\unknownTile.png</Source>
+      <Name>Tiles\GriddyDefault\unknownTile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\CuteKillers\bin\x86\Debug\Content\Tiles\GriddyDefault\unknownTile.xnb</Output>
+      <Time>2012-10-10T15:50:57.3734195+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Tiles\Resources\gold.png</Source>
+      <Name>Tiles\Resources\gold</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\CuteKillers\bin\x86\Debug\Content\Tiles\Resources\gold.xnb</Output>
+      <Time>2012-10-10T15:51:20.2607286+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Tiles\Resources\potion.png</Source>
+      <Name>Tiles\Resources\potion</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\CuteKillers\bin\x86\Debug\Content\Tiles\Resources\potion.xnb</Output>
+      <Time>2012-10-10T15:51:20.2617286+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Tiles\Resources\tomato.png</Source>
+      <Name>Tiles\Resources\tomato</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\CuteKillers\bin\x86\Debug\Content\Tiles\Resources\tomato.xnb</Output>
+      <Time>2012-10-10T15:51:20.2627287+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Tiles\Terrain\dirt.png</Source>
+      <Name>Tiles\Terrain\dirt</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\CuteKillers\bin\x86\Debug\Content\Tiles\Terrain\dirt.xnb</Output>
+      <Time>2012-10-10T15:51:28.9482254+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Tiles\Terrain\grass.png</Source>
+      <Name>Tiles\Terrain\grass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\CuteKillers\bin\x86\Debug\Content\Tiles\Terrain\grass.xnb</Output>
+      <Time>2012-10-10T15:51:28.9492255+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Tiles\Terrain\water.png</Source>
+      <Name>Tiles\Terrain\water</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\CuteKillers\bin\x86\Debug\Content\Tiles\Terrain\water.xnb</Output>
+      <Time>2012-10-10T15:51:28.9502256+01:00</Time>
+    </Item>
+    <Item>
+      <Source>gamefont.spritefont</Source>
+      <Name>gamefont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\CuteKillers\bin\x86\Debug\Content\gamefont.xnb</Output>
+      <Time>2012-10-08T17:28:39.7192104+01:00</Time>
+    </Item>
+    <Item>
+      <Source>menufont.spritefont</Source>
+      <Name>menufont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\CuteKillers\bin\x86\Debug\Content\menufont.xnb</Output>
+      <Time>2012-10-08T17:28:39.7292104+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\CuteKillersContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\CuteKillers\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\CuteKillersContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\CuteKillers\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-11-09T23:13:02.7034592+00:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

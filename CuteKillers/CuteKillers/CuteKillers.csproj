@@ -118,6 +118,10 @@
     <Content Include="GameThumbnail.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\..\..\..\Desktop\easyconfig\EasyConfig\EasyConfig.csproj">
+      <Project>{d08045d5-3635-4a6f-a476-40803fec6cc3}</Project>
+      <Name>EasyConfig</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CuteKillersContent\CuteKillersContent.contentproj">
       <Name>CuteKillersContent</Name>
       <XnaReferenceType>Content</XnaReferenceType>

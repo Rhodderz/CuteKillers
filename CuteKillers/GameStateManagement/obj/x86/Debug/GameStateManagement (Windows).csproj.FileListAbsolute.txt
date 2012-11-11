@@ -1,0 +1,6 @@
+C:\Users\Rhodderz\Documents\Visual Studio 2012\Projects\CuteKillers\CuteKillers\GameStateManagement\bin\x86\Debug\GameStateManagement.dll
+C:\Users\Rhodderz\Documents\Visual Studio 2012\Projects\CuteKillers\CuteKillers\GameStateManagement\bin\x86\Debug\GameStateManagement.pdb
+C:\Users\Rhodderz\Documents\Visual Studio 2012\Projects\CuteKillers\CuteKillers\GameStateManagement\obj\x86\Debug\GameStateManagement (Windows).csprojResolveAssemblyReference.cache
+C:\Users\Rhodderz\Documents\Visual Studio 2012\Projects\CuteKillers\CuteKillers\GameStateManagement\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Rhodderz\Documents\Visual Studio 2012\Projects\CuteKillers\CuteKillers\GameStateManagement\obj\x86\Debug\GameStateManagement.dll
+C:\Users\Rhodderz\Documents\Visual Studio 2012\Projects\CuteKillers\CuteKillers\GameStateManagement\obj\x86\Debug\GameStateManagement.pdb
