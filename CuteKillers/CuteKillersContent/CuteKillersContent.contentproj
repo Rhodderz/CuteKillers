@@ -90,6 +90,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="loadingFont.spritefont">
+      <Name>loadingFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+    </Compile>
     <None Include="Maps\demoLevel.tmx">
       <Name>demoLevel</Name>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

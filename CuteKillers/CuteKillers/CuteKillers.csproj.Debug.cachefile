@@ -14,5 +14,6 @@ Content\Tiles\Terrain\grass.xnb
 Content\Tiles\Terrain\water.xnb
 Content\gamefont.xnb
 Content\menufont.xnb
+Content\loadingFont.xnb
 Content\Maps\demoLevel.tmx
 Content\Maps\tileBank.xml

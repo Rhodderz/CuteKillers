@@ -145,16 +145,25 @@
       <Output>C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\CuteKillers\bin\x86\Debug\Content\menufont.xnb</Output>
       <Time>2012-10-08T17:28:39.7292104+01:00</Time>
     </Item>
+    <Item>
+      <Source>loadingFont.spritefont</Source>
+      <Name>loadingFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Rhodderz\Documents\Visual Studio 2012\Projects\CuteKillers\CuteKillers\CuteKillers\bin\x86\Debug\Content\loadingFont.xnb</Output>
+      <Time>2012-11-11T18:47:52.0442571+00:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <TargetPlatform>Windows</TargetPlatform>
       <TargetProfile>HiDef</TargetProfile>
       <BuildConfiguration>Debug</BuildConfiguration>
       <CompressContent>false</CompressContent>
-      <RootDirectory>C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\CuteKillersContent\</RootDirectory>
-      <LoggerRootDirectory>C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\CuteKillers\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\CuteKillersContent\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\CuteKillers\bin\x86\Debug\Content\</OutputDirectory>
+      <RootDirectory>C:\Users\Rhodderz\Documents\Visual Studio 2012\Projects\CuteKillers\CuteKillers\CuteKillersContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Rhodderz\Documents\Visual Studio 2012\Projects\CuteKillers\CuteKillers\CuteKillers\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Rhodderz\Documents\Visual Studio 2012\Projects\CuteKillers\CuteKillers\CuteKillersContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Rhodderz\Documents\Visual Studio 2012\Projects\CuteKillers\CuteKillers\CuteKillers\bin\x86\Debug\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

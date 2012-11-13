@@ -101,6 +101,7 @@
     <Compile Include="Game.cs" />
     <Compile Include="ScreenFactory.cs" />
     <Compile Include="Screens\BackgroundScreen.cs" />
+    <Compile Include="Screens\CharacterSelect.cs" />
     <Compile Include="Screens\SplashScreen1.cs" />
     <Compile Include="Screens\GameplayScreen.cs" />
     <Compile Include="Screens\LoadingScreen.cs" />

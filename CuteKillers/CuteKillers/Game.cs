@@ -19,8 +19,23 @@ namespace CuteKillers
         ScreenManager screenManager;
         ScreenFactory screenFactory;
 
+        ContentManager content;
+
         public int backBufferHeight;
         public int backBufferWidth;
+
+        public DirectoryInfo cdir;
+        public DirectoryInfo Cdir
+        {
+            get {return cdir;}
+            set {cdir = value;}
+        }
+        public FileInfo[] characters;
+        public FileInfo[] Characters
+        {
+            get { return characters; }
+            set { characters = value; }
+        }
 
         public Game()
         {
@@ -54,6 +69,12 @@ namespace CuteKillers
 
         protected override void Initialize()
         {
+            if (content == null)
+            content = new ContentManager(screenManager.Game.Services, "Content");
+
+            cdir = new DirectoryInfo(content.RootDirectory + "\\Characters");
+            characters = cdir.GetFiles("*.ini");
+
             base.Initialize();
         }
 

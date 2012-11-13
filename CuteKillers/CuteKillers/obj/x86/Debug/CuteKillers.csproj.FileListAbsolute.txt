@@ -27,3 +27,4 @@ C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\
 C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\CuteKillers\bin\x86\Debug\Griddy2D_v1.0.dll
 C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\CuteKillers\bin\x86\Debug\EasyConfig.dll
 C:\Users\Rhodderz\documents\visual studio 2012\Projects\CuteKillers\CuteKillers\CuteKillers\bin\x86\Debug\EasyConfig.pdb
+C:\Users\Rhodderz\Documents\Visual Studio 2012\Projects\CuteKillers\CuteKillers\CuteKillers\bin\x86\Debug\Content\loadingFont.xnb

@@ -4,7 +4,10 @@ using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Content;
 using GameStateManagement;
+using System.IO;
+using EasyConfig;
 
 namespace CuteKillers
 {
@@ -12,6 +15,11 @@ namespace CuteKillers
     {
         bool loadingIsSlow;
         bool otherScreensAreGone;
+
+        Vector2 contentTextPos;
+
+        ContentManager content;
+        SpriteFont gameFont;
 
         MainMenuScreen[] screensToLoad;
 
@@ -36,9 +44,31 @@ namespace CuteKillers
             screenManager.AddScreen(splashScreenLoading, controllingPlayer);
         }
 
+        public override void Activate(bool instancePreserved)
+        {
+            if (!instancePreserved)
+            {
+                if (content == null)
+                    content = new ContentManager(ScreenManager.Game.Services, "Content");
+
+                contentTextPos.X = 10;
+                contentTextPos.Y = 20;
+
+                gameFont = content.Load<SpriteFont>("loadingFont");
+            }
+        }
+
         public override void Update(GameTime gameTime, bool otherScreenHasFocus, bool coveredByOtherScreen)
         {
             base.Update(gameTime, otherScreenHasFocus, coveredByOtherScreen);
+
+            //DirectoryInfo dir = new DirectoryInfo(content.RootDirectory + "\\Characters");
+            //FileInfo[] filePaths = dir.GetFiles("*.ini");
+
+            //foreach (FileInfo file in filePaths)
+            //{
+                //loadedContent(System.IO.Path.GetFileName(file.Name));
+            //}
 
             if (otherScreensAreGone)
             {
@@ -54,6 +84,8 @@ namespace CuteKillers
                 }
 
                 ScreenManager.Game.ResetElapsedTime();
+
+
             }
         }
 
@@ -83,6 +115,20 @@ namespace CuteKillers
                 spriteBatch.DrawString(font, message, textPosition, color);
                 spriteBatch.End();
             }
+        }
+
+        public void loadedContent(string cname)
+        {
+            string contentName = cname;
+
+            SpriteBatch spriteBatchContent = ScreenManager.SpriteBatch;
+            SpriteFont font = ScreenManager.Font;
+
+            spriteBatchContent.Begin();
+            spriteBatchContent.DrawString(gameFont, contentName, contentTextPos, Color.White);
+            spriteBatchContent.End();
+
+            contentTextPos.Y ++;
         }
     }
 }
